@@ -1,14 +1,21 @@
-# Card Wars Kingdom — Revived Server
+# Card Wars Kingdom — Offline Edition
 
-A reverse-engineered private server for **Card Wars Kingdom** (v1.0.17 / v1.19.1), forked from [shishkabob27/CardWarsKingdom](https://github.com/shishkabob27/CardWarsKingdom) and fixed to actually work.
+An adapted version of the [Card Wars Kingdom Revived](https://github.com/Sgsysysgsgsg/Card-Wars-Kingdom-Revived) server, modified to run the game **fully offline without any internet connection**. Compatible with the latest client (v5.0.1).
 
 > **Disclaimer**: This server is intended for personal and educational use only. It lacks production-grade security — only run it locally or with people you trust.
 
 ---
 
-## What was fixed
+## What's different from the original
 
-The original repository had several issues that prevented the game from connecting properly. This fork includes the following fixes:
+This fork takes the original Revived server and adapts it for a fully offline experience:
+
+- **No Wi-Fi required** — the server runs locally on your machine, no internet needed
+- **No anti-cheat** — removed server-side checks that blocked legitimate offline gameplay
+- **Updated game data** — includes scripts to sync blueprints from the upstream server (Magmalands faction, new creatures, spells, etc.)
+- **Bug fixes** — several route and initialization fixes to make everything work out of the box
+
+### Technical fixes applied
 
 - Switched `server_settings.json` URLs from `https` to `http` (required for local servers without SSL)
 - Added missing route `/persist/static/Blueprints/<filename>` for serving blueprint data
@@ -17,8 +24,6 @@ The original repository had several issues that prevented the game from connecti
 - Auto-generation of `messages_received_ids.json` (no more manual file creation)
 - Moved `db.create_all()` before `app.run()` to ensure the database is initialized on first launch
 - Disabled the level anti-cheat check in `update_deck_name` (was blocking legitimate gameplay)
-
-Now you can run it without Wi-Fi :D
 
 ---
 
