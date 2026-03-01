@@ -18,6 +18,8 @@ The original repository had several issues that prevented the game from connecti
 - Moved `db.create_all()` before `app.run()` to ensure the database is initialized on first launch
 - Disabled the level anti-cheat check in `update_deck_name` (was blocking legitimate gameplay)
 
+Now you can run it without Wi-Fi :D
+
 ---
 
 ## Setup
