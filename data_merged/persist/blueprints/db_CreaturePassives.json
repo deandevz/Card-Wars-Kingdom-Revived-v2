@@ -1,0 +1,3601 @@
+[
+  {
+    "ID": "AncientScholar_Awaken",
+    "Description": "!!PASSIVE_AncientScholar_Awaken_DESC",
+    "ScriptName": "CardBlockToCornSwampOnDeploy",
+    "FeedsPerLevel": "150",
+    "MaxLevel": "3",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "AncientScholar_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "AngelOfSand_Awaken",
+    "Description": "When This Creature Dies. Grant 150% Life Leech to Adjacent",
+    "ScriptName": "AdjacentVampiricOnDied",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "150",
+    "MaxVal1": "150"
+  },
+  {
+    "ID": "AngelOfSand_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ArcherDan_Awaken",
+    "Description": "When this creature is deployed, grant Bulls-Eye to all friendly creatures, remove all enemy landscapes and deal 10% Direct Damage to those creatures.",
+    "ScriptName": "GrantTeamBullsEyeRemoveEnemyLandscapesDamageOnDeploy",
+    "FeedsPerLevel": "300",
+    "MaxLevel": "2",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "10",
+    "MaxVal2": "10"
+  },
+  {
+    "ID": "ArcherDan_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BaldingMan_Awaken",
+    "Description": "When attacking an enemy creature without Curse, inflict Curse for 5 Turns and Grant Area 50% Life Leech.",
+    "ScriptName": "PoisonAndAreaVampiricOnAttackNonPoisoned",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "50",
+    "MaxVal2": "50"
+  },
+  {
+    "ID": "BaldingMan_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BaldmansThrone_Awaken",
+    "Description": "When an enemy creature is destroyed by poison, draw a card from each friendly creature and gain 3 energy.",
+    "ScriptName": "DrawAndGainEnergyOnEnemyDiedFromPlague",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "BaldmansThrone_Base",
+    "Description": "When Your Hero Draws a Floop Card, Grant 1x Gift Card and Resurrection Armor for 1 turn on friendly team.",
+    "ScriptName": "GrantReviveDealerCreaturesOnFloopCardDraw",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "BeachMum_Awaken",
+    "Description": "When this creature kill an enemy creature, Inflict 35% Team Burn on the enemy team.",
+    "ScriptName": "BurnEveryoneOnKill",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "35",
+    "MaxVal1": "35"
+  },
+  {
+    "ID": "BeachMum_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BespectacledOgre_Awaken",
+    "Description": "When this creature dealing a critical hit, Inflict Magic Down for 2 turns and Blind.",
+    "ScriptName": "MagicDownAndBlindOnCriticalHit",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "BespectacledOgre_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BogBanSheAngel_Awaken",
+    "Description": "Any enemy creature deployed while this creature is on the board gets 10% Poison and Slow for 1 Turn.",
+    "ScriptName": "PlagueAndCrippleToDeployedEnemies",
+    "FeedsPerLevel": "1",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "BogBanSheAngel_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BogFrogBomb_Awaken",
+    "Description": "When any friendly creature kill any target creature, Inflict 7% Burn on enemy team.",
+    "ScriptName": "BurnEveryoneOnFriendlyKill",
+    "FeedsPerLevel": "1",
+    "MaxLevel": "6",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "BogFrogBomb_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CactusBall_Awaken",
+    "Description": "!!PASSIVE_CactusBall_Awaken_DESC",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26"
+  },
+  {
+    "ID": "CactusBall_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CactusThug_Awaken",
+    "Description": "When this creature is deployed, Grant Area Thorns for 4 turns.",
+    "ScriptName": "GrantAreaThornsOnDeploy",
+    "FeedsPerLevel": "75",
+    "MaxLevel": "4",
+    "MinVal1": "4",
+    "MaxVal1": "4"
+  },
+  {
+    "ID": "CactusThug_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CaptainTaco_Awaken",
+    "Description": "!!PASSIVE_CaptainTaco_Awaken_DESC",
+    "ScriptName": "AreaPinpointOnDeploy",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "CaptainTaco_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ChestBurster_Awaken",
+    "Description": "Inflict Slow for 1 Turns And Poison 3% When An Enemy Creature Attacks Adjacent Creatures.",
+    "ScriptName": "InflictCripplePlagueOnAdjAttacked",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "ChestBurster_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CoolDog_Awaken",
+    "Description": "!!PASSIVE_CoolDog_Awaken_DESC",
+    "ScriptName": "GrantEnergyOnDeploy",
+    "FeedsPerLevel": "250",
+    "MaxLevel": "3",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "CoolDog_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Cornataur_Awaken",
+    "Description": "When this creature is deployed, grant Void Armor for 4 turns to all friendly creatures.",
+    "ScriptName": "GrantTeamVoidArmorOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "4",
+    "MaxVal1": "4"
+  },
+  {
+    "ID": "Cornataur_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornBall_Awaken",
+    "Description": "When this creature is deployed, grant Area Defense Up 2 turns and Haste for 1 turns.",
+    "ScriptName": "GrantAreaFortifyDefHasteOnDeploy",
+    "FeedsPerLevel": "250",
+    "MaxLevel": "3",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "CornBall_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornDog_Awaken",
+    "Description": "When this creature is deployed, grant Fortitude and Defense Up for 4 turns.",
+    "ScriptName": "GrantFortitudeAndDefenseOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "4",
+    "MaxVal1": "4"
+  },
+  {
+    "ID": "CornDog_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornEyeBat_Awaken",
+    "Description": "When this creature attacks an enemy creature with Defense Up, remove the effect and grant this creature 75% Attack Up.",
+    "ScriptName": "GrantAtkSpikeForTargetWithBoostDefOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "75",
+    "MaxVal1": "75"
+  },
+  {
+    "ID": "CornEyeBat_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornLord_Awaken",
+    "Description": "When This Creature is destroyed, Grant Team Corn Fields and 75% Attack Up.",
+    "ScriptName": "GrantLandCornAtkSpikeOnDie",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "3",
+    "MinVal1": "75",
+    "MaxVal1": "75",
+    "MinVal2": "75",
+    "MaxVal2": "75"
+  },
+  {
+    "ID": "CornLord_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornRonin_Awaken",
+    "Description": "At the beginning of each turn, Grant 7% Attack Up for each card in your hand.",
+    "ScriptName": "AtkSpikeForEachCardOnStartTurn",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "CornRonin_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornWall_Awaken",
+    "Description": "When this Creature gets Deployed Area Defense Up for 4 Turns and Immunity Armor for 2 Turns.",
+    "ScriptName": "AreaImmunityFortifyDEFOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "4",
+    "MaxVal1": "4",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "CornWall_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CottonEyeBat_Awaken",
+    "Description": "When this creature deals a critical Hit, grant 20% HP Heal to this creature.",
+    "ScriptName": "HealOnCritical",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "20",
+    "MaxVal1": "20"
+  },
+  {
+    "ID": "CottonEyeBat_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CottonSaurusRex_Awaken",
+    "Description": "When Thorns is played on a friendly creature, Heal creature 5% and grant Regen for 2 turns.",
+    "ScriptName": "RegenAndHealWhenThorns",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "CottonSaurusRex_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Cow_Awaken",
+    "Description": "At the start of each turn, Area remove Poison, blind, and 10% HP heal",
+    "ScriptName": "AreaRemoveBlindPlagueAndHealEachTurn",
+    "FeedsPerLevel": "60",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10"
+  },
+  {
+    "ID": "Cow_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DiamondDan_Awaken",
+    "Description": "When any of your creatures take magic damage, grant that creature Area Shield.",
+    "ScriptName": "AreaShieldWhenTakeMagicDamage",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "DiamondDan_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DrDeath_Awaken",
+    "Description": "Grant 15% Leech Life to all friendly creatures when inflicting Poison or Curse on enemy creatures.",
+    "ScriptName": "VampiricToAllOnPlagueOrPoison",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "10",
+    "MinVal1": "15",
+    "MaxVal1": "15"
+  },
+  {
+    "ID": "DrDeath_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DrStuffenstein_Awaken",
+    "Description": "Area 6% heal On Each instance of Enemy Card Draw.",
+    "ScriptName": "AreaHealOnEnemyCardDraw",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "6",
+    "MaxVal1": "6"
+  },
+  {
+    "ID": "DrStuffenstein_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Earl_Awaken",
+    "Description": "When this creature's HP goes below 55%, grant 125% Attack Up.",
+    "ScriptName": "GrantAtkSpikeIfLowHP",
+    "FeedsPerLevel": "10",
+    "MaxLevel": "26",
+    "MinVal1": "55",
+    "MaxVal1": "55",
+    "MinVal2": "125",
+    "MaxVal2": "125"
+  },
+  {
+    "ID": "Earl_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ElfChief_Awaken",
+    "Description": "While this creature is on the board Grant 1x Shield to any friendly deployed Blue plains or Corn creature.",
+    "ScriptName": "GrantShieldToCornPlainsTeamOnDeploy",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "ElfChief_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ElfMarauder_Awaken",
+    "Description": "When this creature dealing a critical hit, Grant 20% Magic Boost.",
+    "ScriptName": "BurstINTOnCritical",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "20",
+    "MaxVal1": "20"
+  },
+  {
+    "ID": "ElfMarauder_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "EmbarrassingBard_Awaken",
+    "Description": "!!PASSIVE_EmbarrassingBard_Awaken_DESC",
+    "ScriptName": "AdjacentShieldOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "EmbarrassingBard_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ExtraordinarySpider_Awaken",
+    "Description": "On this creature's first attack, grant Area Useless Swamp and 150% Life Leech.",
+    "ScriptName": "AreaLandSwampVampiricOnFirstAtk",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "10",
+    "MinVal1": "150",
+    "MaxVal1": "150"
+  },
+  {
+    "ID": "ExtraordinarySpider_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "EyeGuy_Awaken",
+    "Description": "Grant Area Toxic Armor for 1 turn if you has less Cards.",
+    "ScriptName": "AreaParasisticArmorHealIfFewerCardsOnTurnStart",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "EyeGuy_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FarmerTom_Awaken",
+    "Description": "If a Debuff is inflicted on this Creature, grant 15% heal to all Friendly Creatures.",
+    "ScriptName": "HealEveryoneOnDebuff",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "15",
+    "MaxVal1": "15"
+  },
+  {
+    "ID": "FarmerTom_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FieldReaper_Awaken",
+    "Description": "When this creature attacks an enemy below 65% HP, destroy it instantly.",
+    "ScriptName": "InstantKillOnAttackHPThreshold",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "65",
+    "MaxVal1": "65"
+  },
+  {
+    "ID": "FieldReaper_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Fluffantry_Awaken",
+    "Description": "At the beginning of your turn, any Friendly Creature 9% HP Heal.",
+    "ScriptName": "HealLowHealthCreaturesEachTurn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "99",
+    "MaxVal1": "99",
+    "MinVal2": "9",
+    "MaxVal2": "9"
+  },
+  {
+    "ID": "Fluffantry_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Flufflapillar_Awaken",
+    "Description": "When any creature has Regen, Grant Defense up for 2 turns and Heal 15%",
+    "ScriptName": "FortifyDefAndHealWhenRegen",
+    "FeedsPerLevel": "10",
+    "MaxLevel": "11",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "15",
+    "MaxVal2": "15"
+  },
+  {
+    "ID": "Flufflapillar_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Fummy_Awaken",
+    "Description": "When this creature died, Inflict all Curse for 3 turns.",
+    "ScriptName": "PoisonAllOnDeath",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "Fummy_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GreenMermaid_Awaken",
+    "Description": "!!PASSIVE_GreenMermaid_Awaken_DESC",
+    "ScriptName": "InflictPlaugeOnNiceSandEnemyCreaturesOnDeploy",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "6",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "GreenMermaid_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HeartAngel_Awaken",
+    "Description": "!!PASSIVE_HeartAngel_Awaken_DESC",
+    "ScriptName": "HealEveryoneOnDestroyed",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "11",
+    "MinVal1": "20",
+    "MaxVal1": "20"
+  },
+  {
+    "ID": "HeartAngel_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Herculeye_Awaken",
+    "Description": "!!PASSIVE_Herculeye_Awaken_DESC",
+    "ScriptName": "AtkSpikeToSandAndSwampOnDeploy",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "11",
+    "MinVal1": "75",
+    "MaxVal1": "75"
+  },
+  {
+    "ID": "Herculeye_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HuskerGiant_Awaken",
+    "Description": "!!PASSIVE_HuskerGiant_Awaken_DESC",
+    "ScriptName": "GrantBoostDefAtkSpikeOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "16",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "70",
+    "MaxVal2": "70"
+  },
+  {
+    "ID": "HuskerGiant_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HuskerKnight_Awaken",
+    "Description": "!!PASSIVE_HuskerKnight_Awaken_DESC",
+    "ScriptName": "GrantAdrenalineToCornBlueCreaturesOnDeploy",
+    "FeedsPerLevel": "150",
+    "MaxLevel": "3",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "HuskerKnight_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "KingFluff_Awaken",
+    "Description": "When a Floop card is played by either player, heal all Friendly creatures 15% HP and grant 75% Attack Up.",
+    "ScriptName": "HealFrdCreaturesGrantAtkSpikeOnFloopCard",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "75",
+    "MaxVal2": "75"
+  },
+  {
+    "ID": "KingFluff_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "KnightOfObesity_Awaken",
+    "Description": "When an enemy Creature is destroyed, Grant Team 30% Attack Up and Team 30% Magic Boost.",
+    "ScriptName": "TeamSpikesOnEnemyKill",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "30",
+    "MaxVal1": "30",
+    "MinVal2": "30",
+    "MaxVal2": "30"
+  },
+  {
+    "ID": "KnightOfObesity_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "LadyScarab_Awaken",
+    "Description": "If a friendly Creature is attacked, grant %30 Attack Up, Counter Attack 2x and Heroic for 3 turns to this creature.",
+    "ScriptName": "CounterAndBraveryAndAttackSpikeOnOtherFriendlyAttacked",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "3",
+    "MaxVal2": "3",
+    "MinVal3": "30",
+    "MaxVal3": "30"
+  },
+  {
+    "ID": "LadyScarab_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "LegionOfEarlings_Awaken",
+    "Description": "When opponent deploys a creature, grant Area 50% Attack Up.",
+    "ScriptName": "AreaAtkSpikeOnOppDeploy",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "50",
+    "MaxVal1": "50"
+  },
+  {
+    "ID": "LegionOfEarlings_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "LostGolem_Awaken",
+    "Description": "!!PASSIVE_LostGolem_Awaken_DESC",
+    "ScriptName": "DefAtkHealEachTurnWhenAlone",
+    "FeedsPerLevel": "10",
+    "MaxLevel": "11",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "20",
+    "MaxVal2": "20",
+    "MinVal3": "20",
+    "MaxVal3": "20"
+  },
+  {
+    "ID": "LostGolem_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MaiseWalker_Awaken",
+    "Description": "When a friendly creature takes more than 30% Damage in one attack, grant Heroic, Regen, Defense Up, and Resistance Boost for 2 Turns.",
+    "ScriptName": "BraveryAndBoostDefAndBoostResAndRegenOnHPThreshold",
+    "FeedsPerLevel": "6",
+    "MaxLevel": "51",
+    "MinVal1": "30",
+    "MaxVal1": "30",
+    "MinVal2": "2",
+    "MaxVal2": "2",
+    "MinVal3": "2",
+    "MaxVal3": "2",
+    "MinVal4": "2",
+    "MaxVal4": "2"
+  },
+  {
+    "ID": "MaiseWalker_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ManowarElf_Awaken",
+    "Description": "!!PASSIVE_ManowarElf_Awaken_DESC",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "20",
+    "MaxVal1": "20"
+  },
+  {
+    "ID": "ManowarElf_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ManWitch_Awaken",
+    "Description": "!!PASSIVE_ManWitch_Awaken_DESC",
+    "ScriptName": "TransmogrifyOppLowestHPOnDeploy",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "ManWitch_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MotherFluffBucket_Awaken",
+    "Description": "At the beginning of your turn, any Friendly Creature below 40% HP gets 20% HP Heal.",
+    "ScriptName": "HealLowHealthCreaturesEachTurn",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "40",
+    "MaxVal1": "40",
+    "MinVal2": "20",
+    "MaxVal2": "20"
+  },
+  {
+    "ID": "MotherFluffBucket_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MsMummy_Awaken",
+    "Description": "!!PASSIVE_MsMummy_Awaken_DESC",
+    "ScriptName": "DefToSandAndPlainsOnDeath",
+    "FeedsPerLevel": "500",
+    "MaxLevel": "2",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "MsMummy_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Ninja_Awaken",
+    "Description": "'At the Start of Each Turn, If Creature is at 80% HP Grant 40% Attack Up and Bulls-Eye.",
+    "ScriptName": "PinpointAtkSpikeAboveHealthEachTurn",
+    "FeedsPerLevel": "25",
+    "MaxLevel": "21",
+    "MinVal1": "80",
+    "MaxVal1": "80",
+    "MinVal2": "40",
+    "MaxVal2": "40"
+  },
+  {
+    "ID": "Ninja_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Phyllis_Awaken",
+    "Description": "When an Enemy creature is destroyed, grant 2 Energy.",
+    "ScriptName": "APOnEnemyDied",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "Phyllis_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Pig_Awaken",
+    "Description": "When this creature attacks, theres a Low chance to grant Shield to all friendly creatures.",
+    "ScriptName": "ShieldAllOnAttack",
+    "FeedsPerLevel": "167",
+    "MaxLevel": "4",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "Pig_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PirateBear_Awaken",
+    "Description": "When this creature is attacked while its HP is above 30%, remove 1 buff from the attacker.",
+    "ScriptName": "RemoveBuffOnAttacked",
+    "FeedsPerLevel": "10",
+    "MaxLevel": "11",
+    "MinVal1": "30",
+    "MaxVal1": "30"
+  },
+  {
+    "ID": "PirateBear_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PunkCat_Awaken",
+    "Description": "At the start of each turn, if a friendly creature is below 40% hp, draw a card from it and grant that creature Magic Counter Attack.",
+    "ScriptName": "DrawCardAndMagicCounterUnderHPOnTurnStart",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "40",
+    "MaxVal1": "40",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "PunkCat_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "RainbowBarfer_Awaken",
+    "Description": "At the start of your turn, if adjacent creatures are above 65% HP, grant Area Toxic Armor for 1 turn.",
+    "ScriptName": "AreaParasiticArmorAboveHPOnTurnStart",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "65",
+    "MaxVal2": "65"
+  },
+  {
+    "ID": "RainbowBarfer_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SackOfPain_Awaken",
+    "Description": "When a spell is placed on this creature, remove all debuffs from adjacent creatures.",
+    "ScriptName": "RemoveNagStatusAdjCreatureOnCardPlayed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "15",
+    "MaxVal1": "15"
+  },
+  {
+    "ID": "SackOfPain_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SandasaurusRex_Awaken",
+    "Description": "At the start of each turn, draw one card from adjacent creatures with full HP.",
+    "ScriptName": "DrawAndMagicSpikeToFullHPAtTurnStart",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "SandasaurusRex_Base",
+    "Description": "Only Developer's has this creature.",
+    "ScriptName": "DrawAndMagicSpikeToFullHPAtTurnStart",
+    "FeedsPerLevel": "0",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "20",
+    "MaxVal2": "20"
+  },
+  {
+    "ID": "SandEyeBat_Awaken",
+    "Description": "When deploying friendly creature, grant them Thorns for 1 turn",
+    "ScriptName": "ThornsToDeployed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "SandEyeBat_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SandJackal_Awaken",
+    "Description": "When this creature deals a critical hit on an enemy creature, inflict 7% Burn.",
+    "ScriptName": "BurnOnCritical",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "SandJackal_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SandKnight_Awaken",
+    "Description": "!!PASSIVE_SandKnight_Awaken_DESC",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26"
+  },
+  {
+    "ID": "SandKnight_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SandShark_Awaken",
+    "Description": "When this creature is deployed, Remove Heroic from the enemy team and inflict Card Block.",
+    "ScriptName": "EraseBraveryAndInflictCardBlockToHighHPOnDeploy",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "SandShark_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Sandwitch_Awaken",
+    "Description": "When this creature is deployed, grant Defense Up for 5 turns to all Sand and Niceland Creatures.",
+    "ScriptName": "GrantBoostDefnseToSandNiceCreaturesOnDeploy",
+    "FeedsPerLevel": "150",
+    "MaxLevel": "3",
+    "MinVal1": "5",
+    "MaxVal1": "5"
+  },
+  {
+    "ID": "Sandwitch_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Shepard_Awaken",
+    "Description": "When Your Hero Draws a Floop Card, Remove 3 any debuff on friendly team.",
+    "ScriptName": "RemoveDebuffCreaturesOnFloopCardDraw",
+    "FeedsPerLevel": "300",
+    "MaxLevel": "2",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "Shepard_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SnakeMint_Awaken",
+    "Description": "At the start of each turn, Remove all Debuffs from this creature.",
+    "ScriptName": "RemoveDebuffStatusIfLowHP",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "11",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "100",
+    "MaxVal2": "100"
+  },
+  {
+    "ID": "SnakeMint_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SnuggleTree_Awaken",
+    "Description": "!!PASSIVE_SnuggleTree_Awaken_DESC",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26"
+  },
+  {
+    "ID": "SnuggleTree_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SoftEyeling_Awaken",
+    "Description": "When a Nicelands landscape is played on this creature, Grant %50 Attack Up and 1x Bulls-Eye.",
+    "ScriptName": "GrantAtkSpikePPIfOnLandNice",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "50",
+    "MaxVal1": "50",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "SoftEyeling_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "StruzanJinn_Awaken",
+    "Description": "When this creature is deployed, grant Heroic for 5 Turns",
+    "ScriptName": "GrantShieldHeroicOnDeploy",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "0",
+    "MaxVal1": "0",
+    "MinVal2": "5",
+    "MaxVal2": "5"
+  },
+  {
+    "ID": "StruzanJinn_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SunKing_Awaken",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SunKing_Base",
+    "Description": "When Your Hero Draws a Floop Card, Grant 75% Attack Up And Haste For 3 Turns to all Friendly Corn And Sand Creatures.",
+    "ScriptName": "GrantAtkSpikeAdrenalineToCornSandCreaturesOnFloopCardDraw",
+    "FeedsPerLevel": "300",
+    "MaxLevel": "2",
+    "MinVal1": "75",
+    "MaxVal1": "75",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "TheDrooler_Awaken",
+    "Description": "When this creature is Attacked by an enemy creature, inflict Attack Down for 3 turns on that Creature.",
+    "ScriptName": "GrantWeakenStrOnAttacked",
+    "FeedsPerLevel": "300",
+    "MaxLevel": "2",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "TheDrooler_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "WallOfSand_Awaken",
+    "Description": "When this creature is deployed, grant Defense Up for 10 turns.",
+    "ScriptName": "GrantBoostDefOnDeploy",
+    "FeedsPerLevel": "167",
+    "MaxLevel": "4",
+    "MinVal1": "10",
+    "MaxVal1": "10"
+  },
+  {
+    "ID": "WallOfSand_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "WizardElf_Awaken",
+    "Description": "When this creature is deployed, Draw 1 Card.",
+    "ScriptName": "DrawCardsWhenDeployed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "WizardElf_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "WizardOfPoo_Awaken",
+    "Description": "When this creature attack an enemy creature, Inflicts Magic Down For 1 Turn ",
+    "ScriptName": "WeakenINTOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "WizardOfPoo_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MrFixIt_Awaken",
+    "Description": "When this creature is destroyed, Inflict 25% Poison to the enemy team.",
+    "ScriptName": "PlagueAllOnDeath",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "25",
+    "MaxVal1": "25"
+  },
+  {
+    "ID": "MrFixIt_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PeteMoss_Awaken",
+    "Description": "!!PASSIVE_PeteMoss_Awaken_DESC",
+    "ScriptName": "PlagueOnAttacked",
+    "FeedsPerLevel": "75",
+    "MaxLevel": "5",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "PeteMoss_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PoppaCorn_Awaken",
+    "Description": "When a friendly creature falls below 40% HP, grant Fortitude for 3 turns, Corn Fields, Haste, and 75% Attack Up.",
+    "ScriptName": "EnhanceSTRlandCornHasteAttackUpCornFriendlyOnHPThreshold",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "25",
+    "MinVal1": "40",
+    "MaxVal1": "40",
+    "MinVal2": "3",
+    "MaxVal2": "3",
+    "MinVal3": "75",
+    "MaxVal3": "75",
+    "MinVal4": "3",
+    "MaxVal4": "3"
+  },
+  {
+    "ID": "PoppaCorn_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PreTeenWolf_Awaken",
+    "Description": "Whenever this creature gets attacked, grant 1 Energy Sap.",
+    "ScriptName": "APSiphonOnAttacked",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "ShamanWoad_Awaken",
+    "Description": "When this creature attacks an enemy creature, remove 1 buff from the attacked creature.",
+    "ScriptName": "RemoveBuffsOnAttack",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "ShamanWoad_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ShieldMaizen_Awaken",
+    "Description": "When this creature is deployed, grant Defense Up and Heroic for 5 turns.",
+    "ScriptName": "GrantBoostDefHeroicOnDeploy",
+    "FeedsPerLevel": "167",
+    "MaxLevel": "4",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "5",
+    "MaxVal2": "5"
+  },
+  {
+    "ID": "ShieldMaizen_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Stalker_Awaken",
+    "Description": "When attacking the lowest HP enemy, grant 50% Attack Up and 1 Shield.",
+    "ScriptName": "GrantAtkSpikeShieldIfTargetIsLowestHP",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "50",
+    "MaxVal1": "50",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "Stalker_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SwampyTire_Awaken",
+    "Description": "When a Swamp Landscape is played on this creature, grant 120% Life leech, Fortitude, and Thorns for 5 turns",
+    "ScriptName": "VampiricAndEnhanceSTRThornsOnLandSwamp",
+    "FeedsPerLevel": "167",
+    "MaxLevel": "4",
+    "MinVal1": "120",
+    "MaxVal1": "120",
+    "MinVal2": "5",
+    "MaxVal2": "5",
+    "MinVal3": "5",
+    "MaxVal3": "5"
+  },
+  {
+    "ID": "SwampyTire_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Tomezooka_Awaken",
+    "Description": "Whenever you Have 0 Energy, Grant 22% Magic Boost.",
+    "ScriptName": "BurstINTOnZeroAP",
+    "FeedsPerLevel": "75",
+    "MaxLevel": "5",
+    "MinVal1": "22",
+    "MaxVal1": "22"
+  },
+  {
+    "ID": "Tomezooka_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ArmourOfBooks_Awaken",
+    "Description": "At the start of your turn, if you have 4 or more cards in Your hand Grant Area Defense Up for one turn.",
+    "ScriptName": "AreaDefenseEachTurnWhenCardsInHand",
+    "FeedsPerLevel": "60",
+    "MaxLevel": "6",
+    "MinVal1": "4",
+    "MaxVal1": "4",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "ArmourOfBooks_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FireBaller_Awaken",
+    "Description": "When this creature on Blue Plains, Grant 25% Magic Boost and Heroic for 4 turns.",
+    "ScriptName": "GrantBurstINTBraveryOnLandPlains",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "20",
+    "MaxVal1": "20",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "FireBaller_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "EnlightenedBaldMan_Awaken",
+    "Description": "When this creature attacks an enemy creature, Inflict 10% poison if does not already have it.",
+    "ScriptName": "PlagueOnAttackWhenNoPlague",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "10",
+    "MaxVal1": "10"
+  },
+  {
+    "ID": "EnlightenedBaldMan_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DonkeyKhan_Awaken",
+    "Description": "If this creature does not have Counter Attack, grant Area Counter Attack when attacking.",
+    "ScriptName": "GrantAreaCounterAtkOnAttack",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "DonkeyKhan_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HuskerTanker_Awaken",
+    "Description": "!!PASSIVE_HuskerTanker_Awaken_DESC",
+    "ScriptName": "AtkSpikeIfNotAttack",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "50",
+    "MaxVal1": "50"
+  },
+  {
+    "ID": "HuskerTanker_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Batclops_Awaken",
+    "Description": "When this creature Deals a critical hit, grant 2 Energy.",
+    "ScriptName": "GrantEnergyOnCritical",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "3",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "Batclops_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FunGuy_Awaken",
+    "Description": "Gain 2 energy at the start of your turn if all enemy creatures have Poison or Curse.",
+    "ScriptName": "GainEnergyOnTurnStartIfAllEnemiesPlagued",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "FunGuy_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Sandman_Awaken",
+    "Description": "If an enemy creature attacks more than 3 times in a turn, grant Area Defense Up for 2 turns, Haste, and 100% Life Leech",
+    "ScriptName": "AreaFortifyDEfAdrenalineVampiricOnManyEnemyDragAttacks",
+    "FeedsPerLevel": "10",
+    "MaxLevel": "11",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "2",
+    "MaxVal2": "2",
+    "MinVal3": "100",
+    "MaxVal3": "100"
+  },
+  {
+    "ID": "Sandman_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PyramidTheKid_Awaken",
+    "Description": "At the start of each turn, Grant Heroic to the highest Hp creature and heal them 10% HP.",
+    "ScriptName": "BraveryAndHealForHighestHPOnTurnStart",
+    "FeedsPerLevel": "300",
+    "MaxLevel": "2",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "10",
+    "MaxVal2": "10"
+  },
+  {
+    "ID": "PyramidTheKid_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Nefertiti_Awaken",
+    "Description": "When this creature attacks an enemy creature with a landscape remove the landscape and Draw 3 Cards.",
+    "ScriptName": "RemoveLandDrawCardOnAttack",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "Nefertiti_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FlySwatter_Awaken",
+    "Description": "Only Developer's has this creature.",
+    "ScriptName": "EnergyForEachOpponentCardOnStartTurn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "FlySwatter_Base",
+    "Description": "When this creature is deployed, draw 1 card from adjacent creatures.",
+    "ScriptName": "AdjCreaturesDrawCardsWhenDeployed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "DustBunny_Awaken",
+    "Description": "!!PASSIVE_DustBunny_Awaken_DESC",
+    "ScriptName": "InflictBlindOnDestroyed",
+    "FeedsPerLevel": "250",
+    "MaxLevel": "3",
+    "MinVal1": "5",
+    "MaxVal1": "5"
+  },
+  {
+    "ID": "DustBunny_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CutiePie_Awaken",
+    "Description": "Whenever this creature is damaged, heal all of your Friendly creatures 7% Heal.",
+    "ScriptName": "HealEveryoneOnAttacked",
+    "FeedsPerLevel": "250",
+    "MaxLevel": "3",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "CutiePie_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornWorm_Awaken",
+    "Description": "!!PASSIVE_CornWorm_Awaken_DESC",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26"
+  },
+  {
+    "ID": "CornWorm_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Feedman_Awaken",
+    "Description": "When this creature takes damage, grant Area 50% Attack Up.",
+    "ScriptName": "AreaAttackSpikeOnDamaged",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "5",
+    "MinVal1": "50",
+    "MaxVal1": "50"
+  },
+  {
+    "ID": "Feedman_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GrainaryWeevil_Awaken",
+    "Description": "When this creature attacks an enemy with any landscape, remove the landscape and grant this creature haste for 5 turns.",
+    "ScriptName": "RemoveLandscapeAdrenalineOnAttack",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "GrainaryWeevil_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Ra_Awaken",
+    "Description": "When this attacks on-target a creature with Heroic, grant this creature 35% Area Attack Up and erase Heroic from the target.",
+    "ScriptName": "EraseBraveryForAreaAttackSpikeOnAttack",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "35",
+    "MaxVal1": "35"
+  },
+  {
+    "ID": "Ra_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "TheCooper_Awaken",
+    "Description": "When this creature is attacked, grant Area thorns for 2 turns.",
+    "ScriptName": "GrantAreaThornsOnAttacked",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "TheCooper_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CottonCutie_Awaken",
+    "Description": "When this creature attacks an enemy creature, heal the lowest HP Friendly creature 6% HP.",
+    "ScriptName": "HealLowestOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "6",
+    "MaxVal1": "6"
+  },
+  {
+    "ID": "CottonCutie_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DollyLlama_Awaken",
+    "Description": "!!PASSIVE_DollyLlama_Awaken_DESC",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26"
+  },
+  {
+    "ID": "DollyLlama_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SoftRock_Awaken",
+    "Description": "When this creature is deployed, remove 3 Debuffs from all of your friendly creatures.",
+    "ScriptName": "RemoveNegEffToTeamOnDeploy",
+    "FeedsPerLevel": "150",
+    "MaxLevel": "3",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "SoftRock_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PileOfKittens_Awaken",
+    "Description": "!!PASSIVE_PileOfKittens_Awaken_DESC",
+    "ScriptName": "TransmorphOnAttackIfNoOtherTransmorph",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "PileOfKittens_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "KnifeKite_Awaken",
+    "Description": "!!PASSIVE_KnifeKite_Awaken_DESC",
+    "ScriptName": "GrantCounterAtkOnDeploy",
+    "FeedsPerLevel": "125",
+    "MaxLevel": "5",
+    "MinVal1": "5",
+    "MaxVal1": "5"
+  },
+  {
+    "ID": "KnifeKite_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "TheBarrel_Awaken",
+    "Description": "When this creature is deployed, remove Poison and Blind from all friendly creatures and heal them 25% HP.",
+    "ScriptName": "RemovePoisonBlindAndHealTeamOnDeployed",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "25",
+    "MaxVal1": "25"
+  },
+  {
+    "ID": "TheBarrel_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Pickler_Awaken",
+    "Description": "If this creature's HP drops below 30%, inflict Attack Down and Slow for 2 turns on all Enemy creatures",
+    "ScriptName": "GrantWeakenStrCrippleToOppTeamIfHPLow",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "30",
+    "MaxVal1": "30",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "Pickler_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SteakChop_Awaken",
+    "Description": "Inflict 5% poison when dealing a critical hit.",
+    "ScriptName": "PlagueOnCriticalHit",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "5",
+    "MaxVal1": "5"
+  },
+  {
+    "ID": "SteakChop_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Pieclops_Awaken",
+    "Description": "Grant Thorns and Heroic for 1 turn if Opponent has more Cards.",
+    "ScriptName": "GrantThornBraveryIfOppHasMoreCards",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "Pieclops_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "WallOfChocolate_Awaken",
+    "Description": "At The Start of a Turn Grant 1x Defense Up to this creature.",
+    "ScriptName": "RegenFortifyDEFEachTurn",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "0",
+    "MaxVal1": "0",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "WallOfChocolate_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SgtSandwich_Awaken",
+    "Description": "!!PASSIVE_SgtSandwich_Awaken_DESC",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26"
+  },
+  {
+    "ID": "SgtSandwich_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DeputyHotDog_Awaken",
+    "Description": "When this creature attacks, there's a Low chance to grant Gift Card to all friendly creatures.",
+    "ScriptName": "DealerAllOnAttack",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "DeputyHotDog_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "LieutenantLemonade_Awaken",
+    "Description": "While this creature is on the board, if a friendly creature falls below 30% HP grant 2x shield, 5x Regen, And Remove all Debuff Effects.",
+    "ScriptName": "ShieldAndCleanseAndRegenOnHPThreshold",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "30",
+    "MaxVal1": "30",
+    "MinVal2": "2",
+    "MaxVal2": "2",
+    "MinVal3": "5",
+    "MaxVal3": "5",
+    "MinVal4": "4",
+    "MaxVal4": "4"
+  },
+  {
+    "ID": "LieutenantLemonade_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ColonelChicken_Awaken",
+    "Description": "When attacking an enemy creature, inflict Attack Down and Magic Down for 3 turns.",
+    "ScriptName": "WeakenOnAttackHighHP",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "ColonelChicken_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Sandor_Awaken",
+    "Description": "When a Sand creature is deployed, grant it Heroic for 5 turns and grant this creature Revenge.",
+    "ScriptName": "BraveryAndRevengeWhenDeploying",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "5",
+    "MaxVal1": "5"
+  },
+  {
+    "ID": "Sandor_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PlainJane_Awaken",
+    "Description": "!!PASSIVE_PlainJane_Awaken_DESC",
+    "ScriptName": "GrantShieldOnDeploy",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "3",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "PlainJane_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HuskerDragon_Awaken",
+    "Description": "If this creature takes more than 7% damage to health in one attack, grant Shield 1x.",
+    "ScriptName": "ShieldOnHeavyHit",
+    "FeedsPerLevel": "5",
+    "MaxLevel": "21",
+    "MinVal1": "7",
+    "MaxVal1": "7",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "HuskerDragon_Base"
+  },
+  {
+    "ID": "SPC_HuskerDragon_White",
+    "Description": "Grant <val1> Shield  to <valID> at the beginning of each turn.",
+    "ScriptName": "ShieldOnTargetEachTurn",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "ValID": "HuskerDragon_Awaken"
+  },
+  {
+    "ID": "SPC_HuskerDragon_Mix",
+    "Description": "Grant Team Haste for <val1> turn at the beginning of the turn.",
+    "ScriptName": "TeamHasteEachTurn",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "SPC_HuskerDragon_Yellow",
+    "Description": "Grant Team <val1>% Attack Up at the beginning of the turn.",
+    "ScriptName": "TeamAttackUpEachTurn",
+    "MinVal1": "25",
+    "MaxVal1": "25"
+  },
+  {
+    "ID": "SPCWhite",
+    "Description": "At the start of each turn, any creature with HP below 50% will receive a Shield.",
+    "ScriptName": "ShieldAtLowHPOnStartTurn",
+    "MinVal1": "50",
+    "MaxVal1": "50",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "SPCMix",
+    "Description": "When this creature attacks an enemy creature, Grant Haste for 2 Turns to adjacent Creatures.",
+    "ScriptName": "AdjacentAdrenalineOnAttack",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "SPCYellow",
+    "Description": "Grant Team <val1>% Attack Up at the beginning of the turn.",
+    "ScriptName": "TeamAttackUpEachTurn",
+    "MinVal1": "25",
+    "MaxVal1": "25"
+  },
+  {
+    "ID": "BanSheQueen_Awaken",
+    "Description": "Any enemy creature deployed while this creature is on the board gets Curse For 5 Turns and Card Block.",
+    "ScriptName": "CurseAndCardBlockToDeployedEnemies",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "BanSheQueen_Awaken",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "AngelOfVanilla_Awaken",
+    "Description": "Team Remove 1 Debuff Effect at the beginning of the turn.",
+    "ScriptName": "TeamRemoveDebuffEachTurn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "AngelOfVanilla_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornasaurusRex_Awaken",
+    "Description": "At the start of your turn, if adjacent creatures are above 80% HP, grant Area Immunity Armor for 1 turn .",
+    "ScriptName": "AreaImmunityAboveHPOnTurnStart",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "80",
+    "MaxVal2": "80"
+  },
+  {
+    "ID": "CornasaurusRex_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BlackCat_Awaken",
+    "Description": "Any enemy creature deployed while this creature is on the board gets 1x Block card and 1x Blind.",
+    "ScriptName": "BlockCardAndBlindToDeployedEnemies",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "YellowMermaid_Awaken",
+    "Description": "Any enemy creature deployed while this creature is on the board gets 30% Burn and Slow for 1 Turn.",
+    "ScriptName": "BurnAndCrippleToDeployedEnemies",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "30",
+    "MaxVal1": "30",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "Seahorse_Awaken",
+    "Description": "If opponent has more Cards then give it 20% Hp Heal and 1 Gift Card on the start of Turn.",
+    "ScriptName": "GrantDealerHealIfOppHasMoreCards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "20",
+    "MaxVal1": "20",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "GrayEyeBat_Awaken",
+    "Description": "If this creature random hit any creature, Inflict 20% Poison and 1 Block Card",
+    "ScriptName": "PlagueCardBlockOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "20",
+    "MaxVal1": "20",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "WinterCow_Awaken",
+    "Description": "At the start of each turn, Area remove Burn, blind, and 10% HP heal",
+    "ScriptName": "AreaRemoveBlindBurnAndHealEachTurn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10"
+  },
+  {
+    "ID": "PurpleCow_Awaken",
+    "Description": "When this Creature attacks an Enemy Creature without Slow, Inflict slow for 3 turns and Grant this creature Area 50% Attack Up.",
+    "ScriptName": "CrippleAndAreaAttackSpikeOnAttackNonCrippled",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "50",
+    "MaxVal2": "50"
+  },
+  {
+    "ID": "PurpleCow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HeadphoneJerk_Awaken",
+    "Description": "When opponent Plays a Floop card, Inflict Paralyze 1x and Slow For 3 Turns on The enemy team.",
+    "ScriptName": "ParalyzeCrippleOnOppHeroCard",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "HeadphoneJerk_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "AppleTree_Awaken",
+    "Description": "If you have played 4 Cards, Grant this creature Area Gift Card.",
+    "ScriptName": "AreaPinpointAndDealerOnNumCardsPlayed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "4",
+    "MaxVal1": "4",
+    "MinVal2": "0",
+    "MaxVal2": "0",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "AppleTree_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MadameSeota_Awaken",
+    "Description": "When attacking an enemy creature with heroic, Remove Heroic and Inflict 10% Poison.",
+    "ScriptName": "EraseBraveryInflictPlaugeOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10",
+    "MinVal2": "10",
+    "MaxVal2": "10"
+  },
+  {
+    "ID": "MadameSeota_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BanShePriness_Awaken",
+    "Description": "When an Enemy creature does a 2nd Drag attack, Inflict Magic down and Attack down for 3 Turns.",
+    "ScriptName": "WeakenINTWeakenSTROnManyEnemyDragAttacks",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "BanShePriness_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "EvilTree_Awaken",
+    "Description": "When a Swamp landscape is played on this creature, inflict Curse for 3 turns on all enemy creatures and grant this creature 120% Life Leech.",
+    "ScriptName": "EnemyCurseAndTeamLifeleechOnLandSwamp",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "120",
+    "MaxVal2": "120"
+  },
+  {
+    "ID": "EvilTree_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "AngelOfDark_Awaken",
+    "Description": "Whenever this creature attacks an enemy creature, inflict Card Block",
+    "ScriptName": "CardBlockOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "AngelOfDark_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "AngelEye_Awaken",
+    "Description": "At the start of each turn, grant Gift Card to any friendly creature below 65% HP.",
+    "ScriptName": "DealerToLowHPOnTurnStart",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "65",
+    "MaxVal1": "65",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "AngelEye_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Poultergeist_Awaken",
+    "Description": "If you have played 5 Cards this turn, grant 2 Energy",
+    "ScriptName": "EnergyOnCardThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "5",
+    "MinVal1": "5",
+    "MaxVal1": "6",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "Poultergeist_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Quadurai_Awaken",
+    "Description": "Whenever this creature is attacked, grant Magic Counterattack",
+    "ScriptName": "MagicCounterOnAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "TheGhost_Awaken",
+    "Description": "When this creature does a drag attack, draw an extra card",
+    "ScriptName": "DrawCardOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "TheGhost_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "WhiteNinja_Awaken",
+    "Description": "If you have played 3 cards, grant this creature Regen for 2 turns and Gift Card",
+    "ScriptName": "DealerRegenOnCardThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "2",
+    "MaxVal3": "2"
+  },
+  {
+    "ID": "WhiteNinja_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DragonFoot_Awaken",
+    "Description": "When a friendly creature does a magic attack, grant that creature Defense Up for 3 turns and 15% Magic Boost",
+    "ScriptName": "MagicSpikeDefenseUpOnFriendlyMagicAttackCard",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "15",
+    "MaxVal2": "15"
+  },
+  {
+    "ID": "DragonFoot_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GhostEye_Awaken",
+    "Description": "When a hero plays a floop card, Grant Area Magic 1x Counterattack and Void Armor for 2 turns",
+    "ScriptName": "AreaGrantMagicCounterVoidArmorFloopCardDraw",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "GhostEye_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BrainGooey_Awaken",
+    "Description": "While this creature is on the board, all friendly creature drag attacks inflict Blind and Attack Down for 2 turns",
+    "ScriptName": "WeakenSTRorBlindOnFriendlyAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "BrainGooey_Base",
+    "Description": "Only Developer's has this creature.",
+    "ScriptName": "WeakenSTRorBlindOnFriendlyAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "SandFoot_Awaken",
+    "Description": "At the start of each turn, any friendly creature below 50% HP gets Defense Up and Thorns for 2 turns",
+    "ScriptName": "BoostthorndefToLowHPOnTurnStart",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "50",
+    "MaxVal1": "50",
+    "MinVal2": "2",
+    "MaxVal2": "2",
+    "MinVal3": "3",
+    "MaxVal3": "2"
+  },
+  {
+    "ID": "SandFoot_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PatchyThePumpkin_Awaken",
+    "Description": "When this creature attacks an enemy creature with Thorns, remove enemy's Thorns and grant 35% Attack Up and 20% HP Heal to this creature",
+    "ScriptName": "StealThornsAtkSpikeAndHealOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "35",
+    "MaxVal1": "35",
+    "MinVal2": "20",
+    "MaxVal2": "20"
+  },
+  {
+    "ID": "PatchyThePumpkin_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HotEyeBat_Awaken",
+    "Description": "When this creature attacks an enemy creature, Inflict 20% Burn and Grant this Area creature 35% Attack Up",
+    "ScriptName": "BurnedAndBurstSTROnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "20",
+    "MaxVal1": "20",
+    "MinVal2": "35",
+    "MaxVal2": "35"
+  },
+  {
+    "ID": "HotEyeBat_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BurnedCutie_Awaken",
+    "Description": "Whenever an enemy creature does a drag attack, Inflict 7% Burn",
+    "ScriptName": "FirstBurnEnemyDragAttacks",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "ethanallfire_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FatGoat_Awaken",
+    "Description": "When a friendly creature is deployed, grant Nicelands and Gift Card",
+    "ScriptName": "NiceDealerToDeployed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "FatGoat_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MouthBall_Awaken",
+    "Description": "When this creature take damage, Grant 35% Life Leech.",
+    "ScriptName": "VampiricOnDamaged",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "35",
+    "MaxVal2": "35"
+  },
+  {
+    "ID": "MouthBall_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GrapeSlimey_Awaken",
+    "Description": "When this creature 50% HP below, Grant 1x Shield and 1x Gift Card.",
+    "ScriptName": "ShieldDealerOnStartTurnAndHPThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "50",
+    "MaxVal3": "50"
+  },
+  {
+    "ID": "GrapeSlimey_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PeaSoupBarfer_Awaken",
+    "Description": "When a Floop card is played by either player, grant team Useless Swamp and Haste for 3 turns",
+    "ScriptName": "UselessSwampFrdCreaturesAdrenalineOnFloopCard",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "PeaSoupBarfer_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GreenCow_Awaken",
+    "Description": "Grant 25% Leech Life and 7% Heal to this creature when inflicting Poison or Curse on enemy creatures",
+    "ScriptName": "VampiricHealOnPlagueOrPoison",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "25",
+    "MaxVal1": "25",
+    "MinVal2": "7",
+    "MaxVal2": "7"
+  },
+  {
+    "ID": "GreenCow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MusicMallard_Awaken",
+    "Description": "Whenever an enemy creature attacks this creature, if it does not already have Morph, inflict Morph for 2 turns",
+    "ScriptName": "GrantTransmogrifyOnAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "MusicMallard_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GreenPartyOgre_Awaken",
+    "Description": "Whenever creature apply thorns, Grant 1x Gift Card for 1 turns.",
+    "ScriptName": "DealerDefenseUpWhenThorns",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "0",
+    "MaxVal1": "0",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "GreenPartyOgre_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CameraDude_Awaken",
+    "Description": "When floop draws a floop card, Inflict Enemy Team 6x Confuse and Paralyze for 2 turns",
+    "ScriptName": "InflictParalyzeConfuseEnemyTeamOnFloopCardDraw",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "6",
+    "MaxVal2": "6"
+  },
+  {
+    "ID": "CameraDude_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "UglyTree_Awaken",
+    "Description": "When a friendly creature is attacked, grant this creature 35% Attack Up, Resistance for 2 turns and Fortitude for 1 turn",
+    "ScriptName": "BurstSTRfortifyResOnOtherFriendlyAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "35",
+    "MaxVal1": "35",
+    "MinVal2": "2",
+    "MaxVal2": "2",
+    "MinVal3": "2",
+    "MaxVal3": "2"
+  },
+  {
+    "ID": "UglyTree_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SandHorn_Awaken",
+    "Description": "At the start of each turn, Grant Thorns for 1 Turns this creature.",
+    "ScriptName": "ThornsEachturn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "SandHorn_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HateBird_Awaken",
+    "Description": "At the start of each turn, if the opponent has more cards, grant this creature 35% Attack Up, 1x Counterattack, and remove all debuffs.",
+    "ScriptName": "RemoveDebuffGrantBurstSTRstrengthCounterIfOppHasMoreCards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "35",
+    "MaxVal1": "35",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "10",
+    "MaxVal3": "10"
+  },
+  {
+    "ID": "HateBird_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "NiceBird_Awaken",
+    "Description": "At the start of each turn, if the opponent has more cards, grant this creature 10% HP Heal, Defense up for 1 turns and and Haste for 1 turns",
+    "ScriptName": "GrantHealHasteDefIfOppHasMoreCards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "10",
+    "MaxVal3": "10"
+  },
+  {
+    "ID": "NiceBird_Awaken",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FuriousRooster_Awaken",
+    "Description": "Whenever this creature attacks an enemy creature, grant this creature Area 10% Heal, 25% Attack Up, and Heroic for 3 turns.",
+    "ScriptName": "AreaAttackSpikeAndHealBraveryOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "25",
+    "MaxVal1": "25",
+    "MinVal2": "10",
+    "MaxVal2": "10",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "FuriousRooster_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FuriousHen_Awaken",
+    "Description": "When the opponent plays a Floop card, grant team Haste for 3 turns and Gift card.",
+    "ScriptName": "DealerAdrenalineHealAllOnEnemyHeroCard",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "3",
+    "MaxVal3": "3"
+  },
+  {
+    "ID": "FuriousHen_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FuriousChick_Awaken",
+    "Description": "At the start of a turn, Adjacent creatures for 10% Heal And grant 25% attack up.",
+    "ScriptName": "AdjacentBurstSTRHealOnTurnStart",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "25",
+    "MaxVal1": "25",
+    "MinVal2": "10",
+    "MaxVal2": "10"
+  },
+  {
+    "ID": "FuriousChick_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BadRose_Awaken",
+    "Description": "If an enemy creature attacks more than 3 times, grant this creature 20% HP heal, Defense Up for 3 turns, and draw 2 cards.",
+    "ScriptName": "IFOppAttack3timesHealDrawandFortifyDef",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "20",
+    "MaxVal2": "20",
+    "MinVal3": "2",
+    "MaxVal3": "2"
+  },
+  {
+    "ID": "BadRose_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "AlbinoEyeBat_Awaken",
+    "Description": "At the end of your turn, if this creature hasn't attacked this turn grant Magic counterattack.",
+    "ScriptName": "MagicCounterBurstINTIfNotAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "AlbinoEyeBat_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "PorcelainGuardian_Awaken",
+    "Description": "After playing 2 cards, inflict slow for 1 turn on all enemy creatures (can only be activated once per round.)",
+    "ScriptName": "SlowOnCardThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "PorcelainGuardian_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ApplePieclops_Awaken",
+    "Description": "When you play 2 cards on this creature inflicts 5% burn on enemy team.",
+    "ScriptName": "BurnedOnCardThreshold",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "5",
+    "MaxVal2": "5"
+  },
+  {
+    "ID": "ApplePieclops_Base",
+    "DisplayName": "FLOOP",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "TeethLeaf_Awaken",
+    "Description": "Any enemy creature deployed while this creature is on the board gets Slow for 5 Turn.",
+    "ScriptName": "PlagueAndCrippleToDeployedEnemies",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "0",
+    "MaxVal1": "0",
+    "MinVal2": "5",
+    "MaxVal2": "5"
+  },
+  {
+    "ID": "TeethLeaf_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Bull_Awaken",
+    "Description": "When this creature deployed, Grant Area 1x Countterattack and Fortitude for 3 turns.",
+    "ScriptName": "GrantAreaCounterattackEnhanceSTROnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "Bull_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GreenSnakey_Awaken",
+    "Description": "When friendly creature attack on target creature, If target creature isn't has debuff, Inflict 15% burn and Curse for 3 turns.",
+    "ScriptName": "BurnAndPoisonOnAttackNoDebuffs",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "GreenSnakey_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "VampCorn_Awaken",
+    "Description": "When this creature attacked, Grant 50% Life Leech and Fortitude for 1 turns.",
+    "ScriptName": "VampiricBurstStrMaybeEnhanceSTROnAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "35",
+    "MaxVal1": "35",
+    "MinVal2": "0",
+    "MaxVal2": "0",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "VampCorn_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "VampGhost_Awaken",
+    "Description": "Grant 1x Magic Counterattack for Each turns, When 80% HP Above.",
+    "ScriptName": "MagicCounterBurstINTAboveHealthEachTurn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "80",
+    "MaxVal1": "80",
+    "MinVal2": "1",
+    "MaxVal2": "1",
+    "MinVal3": "0",
+    "MaxVal3": "0"
+  },
+  {
+    "ID": "VampGhost_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "VampBaldMan_Awaken",
+    "Description": "When Life Leech is applied on this creature grant Heroic For 2 turns.",
+    "ScriptName": "BraveryOnVampiric",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "VampBaldMan_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "VampMarshmallow_Awaken",
+    "Description": "When this creature below 65% HP, Grant adjacent creatures 65% Life Leech and Immunity Armor for 2 turns.",
+    "ScriptName": "AdjacentImmunityVampiricOnHPThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "65",
+    "MaxVal1": "65",
+    "MinVal2": "2",
+    "MaxVal2": "2",
+    "MinVal3": "65",
+    "MaxVal3": "65"
+  },
+  {
+    "ID": "VampMarshmallow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "VampCactus_Awaken",
+    "Description": "When Opponent Floop card, Grant Team 50% Life Leech, Thorns and Resistance Boost for 2 turns.",
+    "ScriptName": "ThornsAndVampiricAndFortifyResAllOnEnemyHeroCard",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "50",
+    "MaxVal2": "50",
+    "MinVal3": "2",
+    "MaxVal3": "2"
+  },
+  {
+    "ID": "VampCactus_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornSnow_Awaken",
+    "Description": "When a friendly Creature destroys a enemy Creature, Grant this Area Immunity Armor for 2 turns and 25% heal.",
+    "ScriptName": "ImmunityDerangedHealOnEnemyDied",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "0",
+    "MaxVal2": "0",
+    "MinVal3": "25",
+    "MaxVal3": "25"
+  },
+  {
+    "ID": "CornSnow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SnowPlains_Awaken",
+    "Description": "When an enemy creature does a Magic attack, Draw a card from every friendly creature (Bro thought he was bmt / ruby dan).",
+    "ScriptName": "AreaDrawCardWhenTakeMagicDamage",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "SnowPlains_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SwampSnow_Awaken",
+    "Description": "When this creature attacks, 25% chance to grant Inflict Curse-Energy for 2 turn on target.",
+    "ScriptName": "APPoisonOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "25",
+    "MaxVal1": "25",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "SwampSnow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CottonSnow_Awaken",
+    "Description": "When destroyed Remove all negative effects from your team and 10% Heal.",
+    "ScriptName": "RemoveNegHealAllOnDied",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10",
+    "MinVal2": "25",
+    "MaxVal2": "25"
+  },
+  {
+    "ID": "CottonSnow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SandSnow_Awaken",
+    "Description": "When a hero draws a Floop grant area Flame Armor for 2 Turns",
+    "ScriptName": "AreaFlamingOnFloopDraw",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "SandSnow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MutantZombieRex_Awaken",
+    "Description": "When this creature deployed, Grant adjacent creatures Resurrection Armor for 4 turns.",
+    "ScriptName": "AdjacentReviveOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "4",
+    "MaxVal1": "4"
+  },
+  {
+    "ID": "MutantZombieRex_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BogBum_Awaken",
+    "Description": "Grant Useless Swamp and Heroic for 1 turn if Opponent has more Cards.",
+    "ScriptName": "GrantLandSwampBraveryIfOppHasMoreCards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "BogBum_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "GreenMerman_Awaken",
+    "Description": "When this creature kills an enemy creature inflicts 10% poison to all the team.",
+    "ScriptName": "PlagueEveryoneOnKill",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10"
+  },
+  {
+    "ID": "GreenMerman_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "Sludger_Awaken",
+    "Description": "If you have played 3 Cards, Grant this creature Area 50% Attack Up.",
+    "ScriptName": "BurstSTROnCardThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "50",
+    "MaxVal2": "50"
+  },
+  {
+    "ID": "Sludger_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "OilWall_Awaken",
+    "Description": "Whenever enemy creature kill any other creature, Inflict Oiled for 2 turns on enemy team. (This creature must be on the board).",
+    "ScriptName": "OiledOnAllyDied",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "SkeletalHand_Awaken",
+    "Description": "Whenever enemy creature hit to this creature, Inflict 5% Burn and Slow for 1 turns on enemy team.",
+    "ScriptName": "BurnedCrippleOnAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "5",
+    "MaxVal2": "5",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "YellowGnome_Awaken",
+    "Description": "When this creature killed any enemy creature, Inflict Oiled for 1 turns on enemy team.",
+    "ScriptName": "OiledEveryoneOnKill",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "YellowGnome_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "HologramBaldMan_Awaken",
+    "Description": "If you have played 4 Cards, Grant this creature Area Toxic Armor for 2 turns.",
+    "ScriptName": "AreaParisiticArmorOnNumCardsPlayed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "4",
+    "MaxVal1": "4",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "HologramBaldMan_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "RecordThug_Awaken",
+    "Description": "Whenever creature attacked chance 60% to this creature, Inflict Paralyze for 1 turns.",
+    "ScriptName": "ParalyzeOnAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "60",
+    "MaxVal1": "60",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "RecordThug_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "CornGolem_Awaken",
+    "Description": "When a creature gain Fortitude, Grant Area Gift Card and 7% Heal.",
+    "ScriptName": "GrantDealerAndHealOnEnhanceSTR",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "7",
+    "MaxVal2": "7"
+  },
+  {
+    "ID": "CornGolem_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "MaiseJane_Awaken",
+    "Description": "When this creature attacks, Removes Heroic and 1x Energy Leak.",
+    "ScriptName": "EraseBraveryInflictAPLeakOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "MaiseJane_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "FreezyJ_Awaken",
+    "Description": "Whenever creature attack chance 25% to this creature, Inflict Chill for 1 Turns.",
+    "ScriptName": "FrozenOnAttacked",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "25",
+    "MaxVal1": "25",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "FreezyJ_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DetectiveBobby_Awaken",
+    "Description": "When this creature is deployed Inflicts Paralyze on the lowest Hp for 4 Turns.",
+    "ScriptName": "ParalyzeOppLowestHPOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "4",
+    "MaxVal1": "4"
+  },
+  {
+    "ID": "DetectiveBobby_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DetectiveSally_Awaken",
+    "Description": "When this creature dies inflicts Team Chill 1 for turn and Slow for 2 turns.",
+    "ScriptName": "FrozenCrippleAllOnDeath",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "DetectiveSally_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "IceDevil_Awaken",
+    "Description": "When you play 3 cards, Inflict Chill on enemy creature with the lowest hp (if they don't have chill already)",
+    "ScriptName": "ChillLowestEnemyOn3Cards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "WhiteCat_Awaken",
+    "Description": "When you play 3 cards, Remove 2 Buff on enemy creature with the highest hp (if they have buff status)",
+    "ScriptName": "RemoveBuffHighestEnemyOn3Cards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "IceDevil_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "IceBaby_Awaken",
+    "Description": "When this creature gets deployed, Grant Icylands.",
+    "ScriptName": "GrantLandIcyOnDeploy",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "IceBaby_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "DullCoolDog_Awaken",
+    "Description": "When this creature gets deployed, Grant Plant-Energy for 5 turns and 1x Shield",
+    "ScriptName": "GrantShieldAPFlowerOnDeploy",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "5",
+    "MaxVal2": "5"
+  },
+  {
+    "ID": "IcePaladin_Awaken",
+    "Description": "When any allied creature dies, inflict 1x Frostbite on the enemy team",
+    "ScriptName": "TeamFrostbiteOnAllyDeath",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "IcePaladin_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "SnowyMcSnow_Awaken",
+    "Description": "When this creature attacks, Removes Heroic and Inflicts 10% Direct Damage.",
+    "ScriptName": "EraseBraveryInflictDealDamageOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "10",
+    "MaxVal1": "10"
+  },
+  {
+    "ID": "SnowyMcSnow_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "ChadBear_Awaken",
+    "Description": "When Enemy creatures deployed, Inflict 1x Frostbite.",
+    "ScriptName": "FrostbiteToDeployedEnemies",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "Paladim_Awaken",
+    "Description": "Whenever creature play on Icylands, Grant 1x Shield and 15% Heal",
+    "ScriptName": "HealShieldWhenLandIcy",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "SnowDog_Awaken",
+    "Description": "When this creature play on Icylands, Grant Fortitude and Haste for 2 turns.",
+    "ScriptName": "GrantEnhanceSTROnLandIcy",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "StoneGolem_Awaken",
+    "Description": "Passive disabled",
+    "ScriptName": "GrantEnhanceSTROnLandIcy",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "0",
+    "MaxVal1": "0",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "Shark_Awaken",
+    "Description": "Whenever enemy creature total 4 drag attack, Inflict 1x Nervous on enemy creature",
+    "ScriptName": "NervBlockOnManyEnemyDragAttacks",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "AngelOfSnow_Awaken",
+    "Description": "At start each turn, Random remove 3 debuff on friendly creature.",
+    "ScriptName": "RemoveNegEffToRandomTeamOnTurnStartFix",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "SnowBull_Awaken",
+    "Description": "Whenever enemy creature 3 total drag attack, Inflict 1x Frostbite and Slow for 2 turns.",
+    "ScriptName": "CrippleFrostbiteOnManyEnemyDragAttacks",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "SnowEyeBat_Awaken",
+    "Description": "When this creature 40% Hp below and any take attack from enemy creature, Inflict Chill for 1 turns.",
+    "ScriptName": "FrozenlOnAttackHPThreshold",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "40",
+    "MaxVal1": "40",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "SnowSaurusRex_Awaken",
+    "Description": "When this creature attack on landscape, Inflict Chill for 1 turns.",
+    "ScriptName": "RemoveLandsFrozenDealDamageOnAttack",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "0",
+    "MaxVal1": "0",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "SnowSludger_Awaken",
+    "Description": "When this creature is deploy Inflict Enemy Team Oiled for 1 turns.",
+    "ScriptName": "TeamEnemyOiledOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "IcyWall_Awaken",
+    "Description": "While this creature is on the board, Grant Resistance Boost for 3 turns and 35% Attack Up to any friendly deployed Icylands or Cornfields creature.",
+    "ScriptName": "GrantFortifyRESBurstSTRTIcylandsCornfieldsTeamOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "35",
+    "MaxVal2": "35"
+  },
+  {
+    "ID": "Fatapillar_Awaken",
+    "Description": "While this creature is on the board, Grant Defense Up and Regen for 4 turns to any friendly deployed Icylands or Nicelands creature.",
+    "ScriptName": "GrantFortifyRESBurstSTRTIcylandsCornfieldsTeamOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "35",
+    "MaxVal2": "35"
+  },
+  {
+    "ID": "PajamaNinja_Awaken",
+    "Description": "When Gift Card is played on a friendly creature, Hastle for 3 turns and grant 1x Bulls-Eye.",
+    "ScriptName": "PPAndAdrenalineWhenDealer",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "SnowBall_Awaken",
+    "Description": "When this creature deploy, Grant Defense Up and Resistance Boost for 5 turns.",
+    "ScriptName": "GrantFortifyRESandFortifyDEFOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "35",
+    "MaxVal2": "35"
+  },
+  {
+    "ID": "MagmaSaurusRex_Awaken",
+    "Description": "If Opponent has more cards then grant 1T of Heroic, Resistance Boost and Magmaland",
+    "ScriptName": "GrantLandMagmaFortifyRESBraveryIfOppHasMoreCards",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "DevilEye_Awaken",
+    "Description": "If you kill this creature Inflict 35% Burn to Enemy Team",
+    "ScriptName": "BurnOnDied",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "35",
+    "MaxVal1": "35"
+  },
+  {
+    "ID": "MagmaDog_Awaken",
+    "Description": "When this creature hits a Critical hit Inflict 20% burn.",
+    "ScriptName": "BurnedOnCriticalHit",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "20",
+    "MaxVal1": "20"
+  },
+  {
+    "ID": "MagmaWall_Awaken",
+    "Description": "When Hero play Floop Card Inflict Burn and Block Card on Enemy Team",
+    "ScriptName": "InflictBurnedCardBlockonEnemyTeamOnFloopCardDraw",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "20",
+    "MaxVal1": "20",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "BlackFisherFish_Awaken",
+    "Description": "When a Hero play Floop Card Then grant Team Magmaland",
+    "ScriptName": "MagmaLandsFrdCreaturesEnhanceSTROnFloopCard",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "ObsidianRonin_Awaken",
+    "Description": "When Play 5 Cards, Inflict Berserk, Blind on Highest Hp Creature",
+    "ScriptName": "BerserkBlindHighestEnemyOn6Cards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "5",
+    "MaxVal1": "5"
+  },
+  {
+    "ID": "ObsidianSeahorse_Awaken",
+    "Description": "When this creature kills an Enemy Creature then inflict Enemy Team Burn 15% and Blind 1x",
+    "ScriptName": "BurnBlindEveryoneOnKill",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "ethanallfire_Awaken",
+    "Description": "When this creature hits a creature with landscape then remove landscapes and apply Burn 20% and Attack Down 2T",
+    "ScriptName": "RemoveLandsBurnedWeakenSTROnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "RobotScarab_Awaken",
+    "Description": "When this creature kills an Enemy Creature then grant Attack Up 50% to Friendly Team",
+    "ScriptName": "TeamBurstSTROnKill",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "FlameingoWarrior_Awaken",
+    "Description": "When a Creature hit 3 drag attack in one turn then grant Slow 2T and Burn 15%",
+    "ScriptName": "BurnedSlowOnManyEnemyDragAttacks",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "15",
+    "MaxVal1": "15",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "HotHead_Awaken",
+    "Description": "When this creature play MagmaLands, grant Madness Armor for 2 turns",
+    "ScriptName": "InsaneArmorOnLandMagma",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "BlackPaladin_Awaken",
+    "Description": "When this creature die then grant 75% Attack Up to Friendly Team",
+    "ScriptName": "TeamBurstSTROnDied",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "75",
+    "MaxVal1": "75"
+  },
+  {
+    "ID": "RedHorn_Awaken",
+    "Description": "When this creature died then Inflict 1x Bonebreaker on Enemy Team",
+    "ScriptName": "BonebreakerAllOnDeath",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "8",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "SandSnake_Awaken",
+    "Description": "When this creature deployed, Grant Sandylands.",
+    "ScriptName": "LandSandOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "SandSnake_Base",
+    "FeedsPerLevel": "0"
+  },
+  {
+    "ID": "BlueberryPieclops_Awaken",
+    "Description": "When this creature falls 50% below HP, Grant Area Vanish Armor for 2 turns.",
+    "ScriptName": "AreaStealthOnHPThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "50",
+    "MaxVal1": "50",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "BlueberryPieclops_Base",
+    "Description": "Only Developer's has this creature.",
+    "ScriptName": "GrantEnergyIfHighHP",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "80",
+    "MaxVal2": "80"
+  },
+  {
+    "ID": "ColdSoldier_Special",
+    "Description": "When a friendly creature 30% HP below from a single attack, grant Frost Armor for 1 turns.",
+    "ScriptName": "FrostArmorOnHPThreshold",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "30",
+    "MaxVal1": "30",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "Avalancheetah_Special",
+    "Description": "When this creature 40% HP below, Inflict Chill and 35% Deal Damage on enemy team.",
+    "ScriptName": "InflictFrozenAndDealDamageToOppTeamIfHPLow",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "40",
+    "MaxVal1": "40",
+    "MinVal2": "35",
+    "MaxVal2": "35",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "GhostTeenWolf_Special",
+    "Description": "Only staff team own this creature",
+    "ScriptName": "APSiphonOnAttacked",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "100",
+    "MaxVal1": "100",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "GhostJane_Special",
+    "Description": "Only staff team own this creature",
+    "ScriptName": "GrantShieldOnDeploy",
+    "FeedsPerLevel": "50",
+    "MaxLevel": "3",
+    "MinVal1": "4",
+    "MaxVal1": "4"
+  },
+  {
+    "ID": "GhostCottonCutie_Special",
+    "Description": "Only staff team own this creature",
+    "ScriptName": "HealLowestOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "9",
+    "MaxVal1": "9"
+  },
+  {
+    "ID": "WallOfVanilla_Special",
+    "Description": "Team 7% Heal, Remove Berserk, Blind and Burn at the beginning of the turn.",
+    "ScriptName": "TeamRemoveBlindBerserkBurnEachTurn",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "AnchoviePizzaDude_Special",
+    "Description": "When this creature attacks an enemy creature with Thorns, remove enemy's Thorns and grant 1x Energy Sap and 1x Gift Card to this creature",
+    "ScriptName": "StealThornsAPSiphonAndDealerOnAttack",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "0",
+    "MaxVal2": "0"
+  },
+  {
+    "ID": "GhostRex_Special",
+    "Description": "At the start of each turn, 7% Magic Boost from adjacent creatures with full HP.",
+    "ScriptName": "MagicSpikeToFullHPAtTurnStart",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "7",
+    "MaxVal1": "7"
+  },
+  {
+    "ID": "DogBoy_Special",
+    "Description": "Grant Area 40% Attack Up and Wisdom Armor for 1 turns if Opponent has more Cards.",
+    "ScriptName": "AreaRadiantArmorAttackSpikeIfFewerCardsOnTurnStart",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "40",
+    "MaxVal2": "40"
+  },
+  {
+    "ID": "PizzaDude_Special",
+    "Description": "When you play 3 cards grant 1x Energy Sap",
+    "ScriptName": "APSiphonOnCardThreshold",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "GoblinAssassin_Special",
+    "Description": "While this creature is on the board, Grant Vanish Armor for 2 turns to any friendly deployed Special or Corn creature.",
+    "ScriptName": "GrantVanishToCornRainbowTeamOnDeploy",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "BluePartyOgre_Special",
+    "Description": "Grant 10% Magic Boost and Gain 2 Energy for 1 turn if Opponent has more Cards.",
+    "ScriptName": "GainEnergyMagicBoostIfOppHasMoreCards",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "10",
+    "MaxVal2": "10"
+  },
+  {
+    "ID": "GhostPig_Special",
+    "Description": "When this creature deployed, Grant 3 Power Sap",
+    "ScriptName": "PowerSiphonOnDeploy",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3"
+  },
+  {
+    "ID": "Grim_Special",
+    "Description": "When you play 3 cards, Inflict Curse for 3 turns on enemy team. (Just Creature Designer and Developer's own this creature)",
+    "ScriptName": "PoisonOnCardThreshold",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "3",
+    "MaxVal2": "3"
+  },
+  {
+    "ID": "FlyGem_Special",
+    "Description": "At the start of a turn grant Gift Card if Adjacent are above 80% Hp.",
+    "ScriptName": "AdjacentBrilliantArmorDealerAboveHPOnTurnStart",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "80",
+    "MaxVal1": "80",
+    "MinVal2": "0",
+    "MaxVal2": "0",
+    "MinVal3": "1",
+    "MaxVal3": "1"
+  },
+  {
+    "ID": "KingBaby_Special",
+    "Description": "When this creature attacked if target has landscape, remove landscape and deal direct damage %40.",
+    "ScriptName": "RemoveLandsDealDamageOnAttack",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "40",
+    "MaxVal1": "40"
+  },
+  {
+    "ID": "Unicyclops_Special",
+    "Description": "When you play 3 cards, Inflict 1x Block Card on enemy team.",
+    "ScriptName": "CardBlockOnCardThreshold",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "ChampionNapalmer_Special",
+    "Description": "At the start of each turn, Grant Area Regen and Resistance Boost For 1 turns.",
+    "ScriptName": "AreaRegenFortifyRESOnTurnStart",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "GhostBespectacledOgre_Special",
+    "Description": "When this creature dealing a critical hit, Inflict Magic Down for 3 turns and 2x Blind (Passive temporarily)",
+    "ScriptName": "MagicDownAndBlindOnCriticalHit",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "3",
+    "MaxVal1": "3",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "MutantEyeGuy_Special",
+    "Description": "When adjacent creatures 75% HP above, Grant Flame Armor for 1 turns on adjacent creatures.",
+    "ScriptName": "AdjacentFlamingArmorAboveHPOnTurnStart",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "75",
+    "MaxVal2": "75"
+  },
+  {
+    "ID": "KingWorm_Special",
+    "Description": "When This creature any killed enemy creature team remove all negatives.",
+    "ScriptName": "RemoveDebuffEveryoneOnKill",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "15",
+    "MaxVal1": "15"
+  },
+  {
+    "ID": "RainbowEyeBat_Special",
+    "Description": "When this creature 50% HP below, Grant Vanish Armor for 2 turns.",
+    "ScriptName": "StealthOnHPThreshold",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "6",
+    "MinVal1": "50",
+    "MaxVal1": "50",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "GhostDeputyHotDog_Special",
+    "Description": "Whenever does Magic Attack any creature, Grant 1x Gift Card and %7 Magic Boost.",
+    "ScriptName": "DealerMagicSpikeOnMagicAttackCardIfNeither",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "7",
+    "MaxVal2": "7"
+  },
+  {
+    "ID": "ElderBruteWoad_Special",
+    "Description": "When this creature attacks an enemy creature, Inflict Paralyze for 1 Turns On Creature, If no other enemy creature has it.",
+    "ScriptName": "ParalyzeOnAttackWhenNoParalyze",
+    "FeedsPerLevel": "100",
+    "MaxLevel": "2",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "MushroomPizzaDude_Special",
+    "Description": "When you play 4 cards, Inflict Curse-Energy for 1 turns on enemy team.",
+    "ScriptName": "APPoisonOnCardThreshold",
+    "FeedsPerLevel": "12",
+    "MaxLevel": "26",
+    "MinVal1": "4",
+    "MaxVal1": "4",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "IceBull_Special",
+    "Description": "When this creature is deployed, Chill the enemy creature with the lowest HP for 2 turns. (Just Creature Designer and Developer's own this creature)",
+    "ScriptName": "FrozenOppLowestHPOnDeploy",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "GhostBull_Special",
+    "Description": "While this creature is on the board, Grant 1x Gift Card to any friendly deployed Special or Plains creature.",
+    "ScriptName": "GrantDealerToPlainsRainbowTeamOnDeploy",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  },
+  {
+    "ID": "EmeraldDan_Special",
+    "Description": "When any of your creatures take magic damage, grant that creature Area Vanish Armor and Immunity Armor for 1 turns.",
+    "ScriptName": "AreaStealthImmunityWhenTakeMagicDamage",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "1",
+    "MaxVal1": "1",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "MagneticDude_Special",
+    "Description": "When this creature attacks, 5% chance to grant Deplete 2 Energy from Opponent",
+    "ScriptName": "DepleteAPOnAttack",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "5",
+    "MaxVal1": "5",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "BluePlainsDrifter_Special",
+    "Description": "When this creature Take Magic Damage, Grant 2 Energy.",
+    "ScriptName": "GainAPOnMagicDamage",
+    "FeedsPerLevel": "4",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2"
+  },
+  {
+    "ID": "GhostWizardElf_Special",
+    "Description": "When this creature is deployed, draw 2 cards and grant x1 shield",
+    "ScriptName": "DrawCardsShieldWhenDeployed",
+    "FeedsPerLevel": "20",
+    "MaxLevel": "26",
+    "MinVal1": "2",
+    "MaxVal1": "2",
+    "MinVal2": "1",
+    "MaxVal2": "1"
+  },
+  {
+    "ID": "BananaSlimey_Special",
+    "Description": "When this creature attacks for at a random time, Grant Regen for 2 turns on all friendly creatures.",
+    "ScriptName": "RegenAllOnAttack",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "20",
+    "MaxVal1": "20",
+    "MinVal2": "2",
+    "MaxVal2": "2"
+  },
+  {
+    "ID": "JalapenoPizzaDude_Special",
+    "Description": "When this creature critical attacks, Inflict 1x Energy Leak.",
+    "ScriptName": "APLeakOnCritical",
+    "FeedsPerLevel": "33",
+    "MaxLevel": "4",
+    "MinVal1": "1",
+    "MaxVal1": "1"
+  }
+]
