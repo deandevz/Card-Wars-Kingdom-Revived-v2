@@ -101,4 +101,4 @@ For PVP and chat functionality, set up Chat and PUN servers with [Photon](https:
 
 - Original server by [shishkabob27](https://github.com/shishkabob27)
 - Fixes and improvements by [deandevz](https://github.com/deandevz)
-- Special thanks to **Iran** for making me bang my head against the wall until I figured out all the bugs
+- Special thanks to **Seven7z** for making me bang my head against the wall until I figured out all the bugs
