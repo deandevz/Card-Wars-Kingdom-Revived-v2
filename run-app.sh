@@ -3,6 +3,58 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 cd "$SCRIPT_DIR"
 
+# --- Detectar Python disponivel ---
+PYTHON_CMD=""
+if command -v python3 &>/dev/null; then
+    PYTHON_CMD="python3"
+elif command -v python &>/dev/null; then
+    PYTHON_CMD="python"
+else
+    echo ""
+    echo "  ERRO: Python nao encontrado!"
+    echo "  Instale Python 3.x antes de continuar."
+    exit 1
+fi
+
+# --- Configurar venv automaticamente ---
+VENV_DIR="$SCRIPT_DIR/venv"
+
+setup_venv() {
+    if [ ! -d "$VENV_DIR" ]; then
+        echo "  Criando ambiente virtual (venv)..."
+        $PYTHON_CMD -m venv "$VENV_DIR"
+        if [ $? -ne 0 ]; then
+            echo ""
+            echo "  ERRO: Falha ao criar venv."
+            echo "  Tente instalar: sudo apt install python3-venv  (Linux)"
+            echo "                  ou: sudo pacman -S python       (Steam Deck/Arch)"
+            exit 1
+        fi
+        echo "  Ambiente virtual criado com sucesso!"
+    fi
+
+    source "$VENV_DIR/bin/activate"
+
+    # Verificar se os requirements estao instalados
+    # Compara o hash do requirements.txt com o ultimo instalado
+    REQ_HASH=$(md5sum "$SCRIPT_DIR/requirements.txt" 2>/dev/null || md5 -q "$SCRIPT_DIR/requirements.txt" 2>/dev/null)
+    HASH_FILE="$VENV_DIR/.req_hash"
+
+    if [ ! -f "$HASH_FILE" ] || [ "$(cat "$HASH_FILE" 2>/dev/null)" != "$REQ_HASH" ]; then
+        echo "  Instalando dependencias..."
+        pip install --upgrade pip -q 2>/dev/null
+        pip install -r "$SCRIPT_DIR/requirements.txt" -q
+        if [ $? -ne 0 ]; then
+            echo ""
+            echo "  ERRO: Falha ao instalar dependencias."
+            exit 1
+        fi
+        echo "$REQ_HASH" > "$HASH_FILE"
+        echo "  Dependencias instaladas com sucesso!"
+    fi
+}
+
+# --- Menu principal ---
 echo ""
 echo "  ╔══════════════════════════════════════╗"
 echo "  ║   Card Wars Kingdom - Offline Edition ║"
@@ -18,15 +70,14 @@ read -p "  Escolha uma opcao: " opcao
 case $opcao in
     1)
         echo ""
-        echo "  Ativando ambiente virtual..."
-        source venv/bin/activate
+        setup_venv
         echo "  Iniciando servidor..."
         echo ""
         python app.py
         ;;
     2)
         echo ""
-        source venv/bin/activate
+        setup_venv
 
         echo "  === Etapa 1/3: Baixando dados do servidor remoto ==="
         echo ""
