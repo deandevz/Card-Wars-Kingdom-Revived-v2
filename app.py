@@ -748,6 +748,64 @@ def Blueprints():
 			})
 	return jsonify(data)
 
+@app.route("/persist/static/Blueprints/<string:filename>")
+def BlueprintFile(filename):
+	return send_from_directory("data/persist/blueprints", filename)
+
+@app.route("/persist/<string:player_id>/game", methods=['GET', 'PUT'])
+def PersistGameById(player_id):
+	if InvalidUsername(player_id):
+		return make_response("Invalid Username!", 400)
+	if IsUserBanned(player_id, IPFromRequest(request)):
+		return make_response("User is banned!", 400)
+
+	UpdateLastOnline(player_id)
+
+	if request.method == 'GET':
+		db_user = Player.query.filter_by(username=player_id).first()
+		if db_user is None or db_user.game is None:
+			return make_response("No game found!", 404)
+		return db_user.game
+
+	if request.method == 'PUT':
+		data = request.data
+		db_user = Player.query.filter_by(username=player_id).first()
+		if db_user is None:
+			return make_response("No player found!", 404)
+		db_user.game = data
+		db.session.commit()
+		return make_response("OK", 200)
+
+@app.route("/persist/friends_informationDW/", methods=['POST'])
+def PersistFriendsInformation():
+	player_id = request.headers.get("Player-Id")
+	if player_id is None:
+		clientData = parse_qs(request.get_data().decode('utf-8'))
+		clientData = {k: v[0] if len(v) == 1 else v for k, v in clientData.items()}
+		player_id = clientData.get("player_id")
+
+	if player_id is None:
+		return make_response("No player id!", 400)
+
+	db_user = Player.query.filter_by(username=player_id).first()
+	if db_user is None:
+		return make_response("No player found!", 404)
+
+	data = []
+	player_friends = json.loads(db_user.friends)
+
+	for friend in player_friends:
+		if IsUserBanned(friend):
+			continue
+		allyinfo = GetAllyInfo(friend, True)
+		if allyinfo is not None:
+			data.append(allyinfo)
+
+	return jsonify({
+		"success": True,
+		"data": json.dumps(data)
+	})
+
 @app.route("/persist/messages_received_ids")
 def PersistMessagesReceivedIDs():
 	return send_from_directory(directory="", path="data/persist/messages_received_ids.json", as_attachment=True, download_name="messages_received_ids.json")
@@ -872,12 +930,12 @@ def MultiplayerUpdateDeckName():
 	db_user.leader = clientData["leader"]
  
 	#if this is a fresh account and user is attempting to set leader level to a high number, ban user
-	if db_user.leader_level is None and int(clientData["leader_level"]) > 5:
-		DiscordWebhookMessage(f"{clientData['player_id']} attempted to set leader level to a {clientData['leader_level']} on a fresh account! IP: " + IPFromRequest(request))
-		SystemBan(clientData["player_id"])
-	elif db_user.leader_level is not None and int(clientData["leader_level"]) > int(db_user.leader_level) + 10: #Make sure leader level is incremented by more than 10, if not, ban user
-		DiscordWebhookMessage(f"{clientData['player_id']} attempted to set leader level to {clientData['leader_level']} when it was set to {db_user.leader_level}! IP: " + IPFromRequest(request))
-		SystemBan(clientData["player_id"])
+	#if db_user.leader_level is None and int(clientData["leader_level"]) > 5:
+	#	DiscordWebhookMessage(f"{clientData['player_id']} attempted to set leader level to a {clientData['leader_level']} on a fresh account! IP: " + IPFromRequest(request))
+	#	SystemBan(clientData["player_id"])
+	#elif db_user.leader_level is not None and int(clientData["leader_level"]) > int(db_user.leader_level) + 10: #Make sure leader level is incremented by more than 10, if not, ban user
+	#	DiscordWebhookMessage(f"{clientData['player_id']} attempted to set leader level to {clientData['leader_level']} when it was set to {db_user.leader_level}! IP: " + IPFromRequest(request))
+	#	SystemBan(clientData["player_id"])
  
 	db_user.leader_level = clientData["leader_level"]
 	db_user.allyboxspace = clientData["allyboxspace"]
@@ -1530,21 +1588,23 @@ def Log(category, message):
 		log = f"{time} - [{category.upper()}] - {message} \n"
 		f.write(log)
 
+scheduler_thread = threading.Thread(target=run_scheduler)
+scheduler_thread.start()
+
 if __name__ == '__main__':
 	Log("server", "Starting server...")
- 
-	#create version.txt and android_version.txt if they don't exist
+
+	with app.app_context():
+		db.create_all()
+
 	if not os.path.exists("data/persist/version.txt"):
 		with open("data/persist/version.txt", "w") as f:
 			f.write("1.0.0")
 	if not os.path.exists("data/persist/android_version.txt"):
 		with open("data/persist/android_version.txt", "w") as f:
 			f.write("1.0.0")
-	
+	if not os.path.exists("data/persist/messages_received_ids.json"):
+		with open("data/persist/messages_received_ids.json", "w") as f:
+			f.write("[]")
+
 	app.run(debug=args.debug, port=args.port)
-
-with app.app_context():
-	db.create_all()
-
-scheduler_thread = threading.Thread(target=run_scheduler)
-scheduler_thread.start()
